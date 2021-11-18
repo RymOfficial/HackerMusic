@@ -1,8 +1,8 @@
 {
-  "name": "Aditya Arushi Player",
+  "name": "Devil Hacker Music",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Shailendra34/Heromusics",
+  "repository": "https://github.com/rakeshyt/DevilHackerMusic2",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
