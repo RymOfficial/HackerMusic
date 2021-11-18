@@ -1,4 +1,4 @@
-# https://t.me/legendaditya
+# https://t.me/LegendRajOp
 
 from modules.helpers.filters import command
 from pyrogram import Client, filters
