@@ -1,0 +1,38 @@
+{
+  "name": "Aditya Arushi Player",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/Shailendra34/Heromusics",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram session string",
+      "required": false
+    },
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather",
+      "required": false,
+      "value": "2034903666:AAHkds0_T7N-0fXtNufUv-BAcpIrAGb7yIw"
+    },
+    "API_ID": {
+      "description": "App ID from my.telegram.org/apps",
+      "required": false,
+      "value": "7691464"
+    },
+    "API_HASH": {
+      "description": "App hash from my.telegram.org/apps",
+      "required": false,
+      "value": "8b90120161e4628088257361033f9b19"
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "required": false,
+      "value": "1973129294 2023126723 1442442077"
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": false,
+      "value": "60"
+    }
+  }
+}
