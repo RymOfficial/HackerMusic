@@ -1,6 +1,6 @@
 # https://t.me/legendaditya
 
-from helpers.filters import command
+from modules.helpers.filters import command
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
