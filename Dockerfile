@@ -5,7 +5,7 @@ RUN pip3 install -U pip
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 RUN npm install -g npm@8.1.3
-COPY . /arushi/
-WORKDIR /arushi/
+COPY . /hacker/
+WORKDIR /hacker/
 RUN pip3 install -U -r requirements.txt
 CMD python3 -m modules
