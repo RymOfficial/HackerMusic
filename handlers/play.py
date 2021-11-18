@@ -7,24 +7,24 @@ from typing import Callable
 from pyrogram import Client, filters
 from pyrogram.types import Message, Voice, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import UserAlreadyParticipant
-from cache.admins import set
-from callsmusic import callsmusic, queues
-from callsmusic.callsmusic import client as USER
-from helpers.admins import get_administrators
+from modules.cache.admins import set
+from modules.callsmusic import callsmusic, queues
+from modules.callsmusic.callsmusic import client as USER
+from modules.helpers.admins import get_administrators
 import requests
 import aiohttp
 import yt_dlp
 from youtube_search import YoutubeSearch
 import converter
-from downloaders import youtube
-from config import DURATION_LIMIT, que, SUDO_USERS
-from cache.admins import admins as a
-from helpers.filters import command, other_filters
-from helpers.command import commandpro
-from helpers.decorators import errors, authorized_users_only
-from helpers.errors import DurationLimitError
-from helpers.gets import get_url, get_file_name
-from helpers.channelmusic import get_chat_id
+from modules.downloaders import youtube
+from modules.config import DURATION_LIMIT, que, SUDO_USERS
+from modules.cache.admins import admins as a
+from modules.helpers.filters import command, other_filters
+from modules.helpers.command import commandpro
+from modules.helpers.decorators import errors, authorized_users_only
+from modules.helpers.errors import DurationLimitError
+from modules.helpers.gets import get_url, get_file_name
+from modules.helpers.channelmusic import get_chat_id
 import aiofiles
 import ffmpeg
 from PIL import Image, ImageFont, ImageDraw
