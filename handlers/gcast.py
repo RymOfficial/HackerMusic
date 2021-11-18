@@ -5,8 +5,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Dialog, Chat, Message
 from pyrogram.errors import UserAlreadyParticipant
 
-from callsmusic.callsmusic import client as aditya
-from config import SUDO_USERS
+from modules.callsmusic.callsmusic import client as aditya
+from modules.config import SUDO_USERS
 
 @Client.on_message(filters.command(["gcast"]))
 async def broadcast(_, message: Message):
