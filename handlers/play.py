@@ -15,7 +15,7 @@ import requests
 import aiohttp
 import yt_dlp
 from youtube_search import YoutubeSearch
-import converter
+import modules.converter
 from modules.downloaders import youtube
 from modules.config import DURATION_LIMIT, que, SUDO_USERS
 from modules.cache.admins import admins as a
