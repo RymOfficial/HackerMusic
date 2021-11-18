@@ -8,4 +8,4 @@ RUN npm install -g npm@8.1.3
 COPY . /arushi/
 WORKDIR /arushi/
 RUN pip3 install -U -r requirements.txt
-CMD python3 main.py
+CMD python3 -m modules
