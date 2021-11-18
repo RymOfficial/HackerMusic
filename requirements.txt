@@ -1,4 +1,3 @@
-#aditya
 git+https://github.com/pyrogram/pyrogram@master
 TgCrypto
 py-tgcalls==0.8.1
