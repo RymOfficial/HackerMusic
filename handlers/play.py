@@ -381,8 +381,13 @@ async def skip(_, message: Message):
             
         else:
             await callsmusic.pytgcalls.change_stream(
-                chat_id, InputAudioStream(callsmusic.queues.get(chat_id)["file"])
-            )
+                chat_id, 
+                    InputStream(
+                        InputAudioStream(
+                            callsmusic.queues.get(chat_id)["file"],
+                        ),
+                    ),
+                )
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/af3dad3866909b93b036b.png", 
