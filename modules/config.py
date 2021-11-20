@@ -9,6 +9,7 @@ admins = {}
 
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
+BOT_USERNAME = getenv("BOT_USERNAME")
 ARQ_API_KEY = getenv("ARQ_API_KEY")
 BOT_TOKEN = getenv("BOT_TOKEN")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT"))
