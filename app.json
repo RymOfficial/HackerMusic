@@ -14,6 +14,11 @@
       "required": false,
       "value": ""
     },
+    "BOT_USERNAME": {
+      "description": "Put Bot Username Without '@' Ex:- DevilTrishaRoBot",
+      "required": true,
+      "value": "DevilTrishaRoBot"
+    },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": false,
