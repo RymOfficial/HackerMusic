@@ -17,7 +17,7 @@ import yt_dlp
 from youtube_search import YoutubeSearch
 from modules import converter
 from modules.downloaders import youtube
-from modules.config import YOUR_NAME, DURATION_LIMIT, que, SUDO_USERS
+from modules.config import DURATION_LIMIT, que, SUDO_USERS
 from modules.cache.admins import admins as a
 from modules.helpers.filters import command, other_filters
 from modules.helpers.command import commandpro
@@ -231,7 +231,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "{YOUR_NAME}"
+            thumb_name = "https://telegra.ph/file/8fddb775d567de8a63940.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -345,7 +345,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="{YOUR_NAME}", 
+                             photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
                              caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🤞 Mʋsɩƈ\n💞Nøω 🥀 ▶️ Ƥɑʋsɘɗ 🌷 ...**"
     )
 
@@ -356,7 +356,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="{YOUR_NAME}", 
+                             photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
                              caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🤞 Mʋsɩƈ\nNøω 🥀 ⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
     )
 
@@ -390,7 +390,7 @@ async def skip(_, message: Message):
                 )
 
     await message.reply_photo(
-                             photo="{YOUR_NAME}", 
+                             photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
                              caption=f'**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🔈 Mʋsɩƈ🤞\nNøω 🥀 ⏩ Sƙɩƥƥɘɗ 🌷 ...**'
    ) 
 
@@ -406,7 +406,7 @@ async def stop(_, message: Message):
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="{YOUR_NAME}", 
+                             photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
                              caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🔈 Mʋsɩƈ\n🤞Nøω 🥀 ❌ Sʈøƥƥɘɗ 🌷 ...**"
     )
 
@@ -424,6 +424,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="{YOUR_NAME}",
+                              photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg",
                               caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🔈 Mʋsɩƈ🤞\nNøω 🥀🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
     )
