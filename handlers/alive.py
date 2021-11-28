@@ -34,7 +34,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"{YOUR_NAME}",
+        photo="{YOUR_NAME}",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 𝙃𝙚𝙡𝙡𝙤, 𝙄 𝘼𝙢 𝙎𝙪𝙥𝙚𝙧 𝙁𝙖𝙨𝙩 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧
 𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 ...
@@ -60,7 +60,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "legend"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"{YOUR_NAME}",
+        photo="{YOUR_NAME}",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -76,7 +76,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"{YOUR_NAME}",
+        photo="{YOUR_NAME}",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
