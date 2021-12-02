@@ -1,4 +1,4 @@
-Pyrogram==1.2.11
+git+https://github.com/pyrogram/pyrogram@master
 TgCrypto
 py-tgcalls==0.8.1
 python-dotenv
