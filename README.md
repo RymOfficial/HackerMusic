@@ -25,9 +25,9 @@
 
 # ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ
 
-[Repl Link](https://replit.com/@AdityaHalder/PyrogramStringSession) to get pyrogram string session
+[Repl Link](https://t.me/JaiHindChatting) to get pyrogram string session
 
 
 ### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rakeshyt/DevilHackerMusic2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rakeshyt/HackerMusic)
