@@ -2,7 +2,6 @@ pyrogram
 TgCrypto
 py-tgcalls
 python-dotenv
-yt_dlp
 youtube_search_python==1.4.6
 speedtest-cli
 requests
@@ -17,7 +16,6 @@ Pillow
 future
 pyaml
 psutil
-yt-dlp
 bs4
 psutil
 wget
@@ -26,3 +24,5 @@ httpx==0.13.3
 heroku3
 gitpython
 pykeyboard
+git+https://github.com/rakeshyt/PipeLine@master
+git+https://github.com/rakeshyt/PipeLine2@master
