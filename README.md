@@ -28,11 +28,6 @@
 [Repl Link](https://t.me/JaiHindChatting) to get pyrogram string session
 
 
-    ## 𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 Railway 🚀
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frakeshyt%2FHackerMusic%2Ftree%2Fmaster&envs=SESSION_NAME%2CBOT_TOKEN%2CBOT_USERNAME%2CSUDO_USERS%2CAPI_HASH%2CAPI_ID%2CDURATION_LIMIT&BOT_USERNAMEDesc=Without+%40&BOT_USERNAMEDefault=DevilTrishaRoBot&SUDO_USERSDefault=2023126723&DURATION_LIMITDefault=60)
-
-
 
 ### Deploy Method
 
